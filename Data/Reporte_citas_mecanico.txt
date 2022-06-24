@@ -1,0 +1,11 @@
+Folio: 800001
+Servicio: Afinacion
+Mecánico: Angel Montes Boca
+Nombre del cliente: Valeria Abigail Carrillo Saldana
+Placas del auto: ASD1237
+Número del cliente: 8116097486
+Fecha de la cita: 24/05/2021
+Hora: 4PM-8PM
+Cancelado: No
+Atendido: No
+--------------------------------

@@ -1,0 +1,360 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Inglés (Estados Unidos) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Inglés (Estados Unidos) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (México) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 309, 184
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Principal"
+MENU IDR_MENU1
+FONT 10, "Times New Roman", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Cancelar",BN_SAIRMAIN,252,163,50,14
+    LTEXT           "",ST_USERMA,29,170,122,8
+    CTEXT           "¿Que desea hacer hoy?",ST_TIMERMA,123,116,109,8,0,WS_EX_TRANSPARENT
+    CONTROL         "",PC_USERMA,"Static",SS_BITMAP,29,20,21,12
+    LTEXT           "",Lbl_Timer,146,9,156,14
+    CTEXT           "Bienvenido al sistema",IDC_STATIC,129,43,99,9,0,WS_EX_TRANSPARENT
+    CTEXT           "A",LBL_USERNAME,135,70,89,22,0,WS_EX_TRANSPARENT
+END
+
+IDD_SERVICES DIALOGEX 0, 0, 457, 211
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",BN_OKESP,333,190,50,14
+    PUSHBUTTON      "Cancelar",BN_CANCELESP,400,190,50,14
+    CONTROL         "Registro de servicios",RB_REGIST,"Button",BS_AUTORADIOBUTTON,169,25,82,10
+    EDITTEXT        TB_NAME,271,78,130,16,ES_AUTOHSCROLL
+    EDITTEXT        TB_DESC,271,102,129,44,ES_AUTOHSCROLL
+    LTEXT           "Nombre del servicio",LBL_NAME,158,78,94,16
+    LTEXT           "Descripción del servicio",LBL_ESP,158,102,94,16
+    LTEXT           "IMPORTANTE: NO SE ADMITEN NUMEROS, NI ACENTOS NI CARACTERES ESPECIALES, TAMPOCO LA LETRA Ñ",LBL_NOTE,183,45,180,16
+    LISTBOX         LB_SERV,20,41,130,150,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Editar",BN_EDIT,266,190,50,14
+    EDITTEXT        TB_COST,271,154,130,16,ES_AUTOHSCROLL
+    LTEXT           "Costo del servicio",LBL_NAME2,157,154,94,16
+    PUSHBUTTON      "Eliminar",BTN_DELETES,201,190,50,14
+    LTEXT           "Estático",LBL_USERS,7,192,150,12
+END
+
+IDD_MECHS DIALOGEX 0, 0, 561, 243
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,408,216,68,20
+    PUSHBUTTON      "Cancelar",IDCANCEL,486,216,68,20
+    CONTROL         "Registro de mecánicos",RB_REGM,"Button",BS_AUTORADIOBUTTON,206,8,132,16
+    CONTROL         "Reporte de mecánicos",RB_REPM,"Button",BS_AUTORADIOBUTTON,346,8,99,16
+    LTEXT           "Nombre completo",IDC_STATIC,204,55,58,15
+    LTEXT           "Horario de atencion (horas)",IDC_STATIC,204,134,67,17
+    LTEXT           "Fotografía",IDC_STATIC,412,134,48,15
+    LTEXT           "No de celular",IDC_STATIC,205,167,57,15
+    LTEXT           "Horario de atencion (semanal)",IDC_STATIC,205,104,67,17
+    EDITTEXT        TB_NAMEM,275,52,92,17,ES_AUTOHSCROLL
+    COMBOBOX        CB_SCHEDW,276,104,90,29,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        CB_SCHEDH,276,134,90,19,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "cargar",BTN_LOADM,466,130,76,16
+    EDITTEXT        TB_TELM,275,164,92,17,ES_AUTOHSCROLL
+    CONTROL         "",PC_MECH,"Static",SS_BITMAP,469,48,15,13
+    LTEXT           "Servicio",IDC_STATIC,204,79,59,15
+    COMBOBOX        CB_SERVM,276,76,90,27,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",LBL_NUMEMP,276,30,90,15
+    LTEXT           "Numero de empleado",IDC_STATIC,204,30,58,18
+    PUSHBUTTON      "EDITAR",BTN_EDITM,330,216,68,20
+    PUSHBUTTON      "ELIMINAR",BTN_DELETEM,252,216,68,20
+    LISTBOX         LB_MECS,15,26,156,175,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",LBL_PIC,7,205,183,12,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Estático",LBL_USERM,24,223,163,12
+END
+
+IDD_CITAS DIALOGEX 0, 0, 511, 266
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        CB_SERVB,224,137,111,13,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Aceptar",IDOK,296,245,50,14
+    PUSHBUTTON      "Cancelar",ID_CANCELC,450,245,50,14
+    CONTROL         "",DTP_CITS,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT,162,165,131,15
+    LISTBOX         LB_CITAS,27,42,93,193,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Folio",IDC_STATICLBL,131,54,52,8
+    LTEXT           "Folio Automatico",LBL_FOLIO,191,54,103,8
+    LTEXT           "Placas",IDC_STATICP,131,109,52,8
+    COMBOBOX        CB_SERVCT,190,67,104,15,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        CB_MECH,190,87,104,27,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        CB_CLIENT,190,106,104,31,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Mecánico",IDC_STATICM,131,90,52,8
+    LTEXT           "Teléfono",IDC_STATICT,131,147,52,8
+    EDITTEXT        TB_TEL,188,144,105,15,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Fecha",IDC_STATICF,132,168,26,8
+    LTEXT           "Hora",IDC_STATICH,132,210,52,8
+    COMBOBOX        CB_HOUR,190,207,104,27,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Atendido",CH_ATT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,225,61,10
+    CONTROL         "Cancelado",CH_CANC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,201,225,76,10
+    CONTROL         "",PC_CITAS,"Static",SS_BITMAP,404,74,15,13
+    LTEXT           "Foto del mecánico",IDC_STATICPM,393,134,86,8
+    CONTROL         "Registrar cita",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,108,14,59,10
+    PUSHBUTTON      "Editar",IDEDIT,399,245,50,14
+    PUSHBUTTON      "Eliminar",IDDELETE,348,245,50,14
+    LTEXT           "Cliente",IDC_STATICC,132,128,52,8
+    EDITTEXT        TB_NAME,188,125,105,15,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Buscar cita",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,190,15,51,10
+    EDITTEXT        TB_FOLIOB,225,66,103,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        CB_MECHB,224,106,111,13,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",DTP_BUS,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,225,179,110,15
+    LTEXT           "Seleccione un dia en la semana o mes que desea buscar",LBL_INST,225,155,127,20
+    LTEXT           "Motivo de cancelacion",LBL_CANCELDESC,394,147,86,8
+    EDITTEXT        TB_CANCELDESC,360,159,129,57,ES_AUTOHSCROLL
+    LTEXT           "Estático",LBL_USERCT,7,246,141,13
+    LTEXT           "",LBL_FECHA,163,188,131,13
+    CONTROL         "BUSQUEDA POR FOLIO",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,123,66,98,14
+    CONTROL         "BUSQUEDA POR MECANICO",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,122,105,102,11
+    CONTROL         "BUSQUEDA POR ESPECIALIDAD",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,122,120,122,13
+    CONTROL         "BUSQUEDA POR SEMANA",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,123,163,94,14
+    EDITTEXT        IDC_EDIT2,339,106,80,16,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Introduzca la matricula del mecanico",IDC_STATICBIN,332,92,116,8
+    PUSHBUTTON      "Buscar mecanico",BTN_BINSEARCH,429,107,71,16
+END
+
+IDD_CLIENTS DIALOGEX 0, 0, 525, 226
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,249,205,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,468,205,50,14
+    LTEXT           "Nombre ",IDC_STATIC,165,27,34,13
+    LTEXT           "Placas del vehículo",IDC_STATIC,140,58,74,13
+    LTEXT           "No. celular",IDC_STATIC,348,37,74,13
+    LTEXT           "Marca del vehículo",IDC_STATIC,140,81,74,13
+    LTEXT           "Modelo del vehículo",IDC_STATIC,140,106,74,13
+    LTEXT           "Año del vehículo",IDC_STATIC,140,125,74,20
+    LTEXT           "Kilometraje",IDC_STATIC,140,146,74,12
+    EDITTEXT        IDC_EDIT1,132,37,104,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,408,37,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,224,103,106,15,ES_AUTOHSCROLL
+    CONTROL         "Reporte de clientes",RB_RCL,"Button",BS_AUTORADIOBUTTON,400,7,103,18
+    CONTROL         "Registro de clientes",RB_CL,"Button",BS_AUTORADIOBUTTON,151,7,103,18
+    EDITTEXT        IDC_EDIT4,225,80,104,15,ES_AUTOHSCROLL
+    LTEXT           "Calle",IDC_STATICCA,348,72,74,13
+    EDITTEXT        IDC_EDIT6,408,71,105,15,ES_AUTOHSCROLL
+    LTEXT           "Número",IDC_STATICNUM,348,91,74,13
+    EDITTEXT        IDC_EDIT7,408,89,105,15,ES_AUTOHSCROLL
+    LTEXT           "Colonia",IDC_STATICCOL,348,113,74,13
+    EDITTEXT        IDC_EDIT8,408,111,105,15,ES_AUTOHSCROLL
+    LTEXT           "Municipio",IDC_STATICMUN,348,134,74,13
+    EDITTEXT        IDC_EDIT9,408,132,105,15,ES_AUTOHSCROLL
+    LTEXT           "Estado",IDC_STATICSTATE,348,155,56,13
+    CTEXT           "Dirección completa",IDC_STATIC,377,56,118,13
+    EDITTEXT        IDC_EDIT11,224,124,106,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,224,56,104,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO2,224,146,106,52,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO4,407,154,106,69,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         LB_CL,11,25,118,182,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "EDIT",IDEDITCL,325,205,50,14
+    PUSHBUTTON      "DELETE",IDDELCL,401,205,50,14
+    EDITTEXT        TB_BIGDIR,343,67,173,73,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "Estático",LBL_USERCL,7,208,171,11
+    LTEXT           "Apellidos",IDC_STATIC,276,26,34,13
+    EDITTEXT        TB_APEL,239,37,104,15,ES_AUTOHSCROLL
+END
+
+IDD_LOGIN DIALOGEX 0, 0, 309, 176
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,198,155,50,14
+    PUSHBUTTON      "Salir",BN_SALIR,252,155,50,14
+    LTEXT           "Usuario : ",IDC_STATIC,66,112,32,8
+    LTEXT           "Contraseña : ",IDC_STATIC,64,128,45,8
+    EDITTEXT        TB_USER,114,109,114,14,ES_AUTOHSCROLL
+    EDITTEXT        TB_PASS,114,126,114,14,ES_AUTOHSCROLL
+    CONTROL         "",PB_AppL,"Static",SS_BITMAP,94,20,15,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_SERVICES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 450
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_MECHS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 554
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+
+    IDD_CITAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 504
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_CLIENTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 518
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SERVICES AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_MECHS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CITAS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CLIENTS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_LOGIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    MENUITEM "Especialidades",              40014
+    MENUITEM "Mecanicos",                   40015
+    MENUITEM "Citas",                       40016
+    MENUITEM "Clientes",                    40017
+    MENUITEM "Salir",                       ID_SALIR
+END
+
+#endif    // Español (México) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

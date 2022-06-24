@@ -1,0 +1,33 @@
+Folio: 800001
+Servicio: Afinacion
+Mecánico: Angel Montes Boca
+Nombre del cliente: Valeria Abigail Carrillo Saldana
+Placas del auto: ASD1237
+Número del cliente: 8116097486
+Fecha de la cita: 24/05/2021
+Hora: 4PM-8PM
+Cancelado: No
+Atendido: No
+--------------------------------
+Folio: 800002
+Servicio: Aceitado
+Mecánico: Eduardo Ramirez Davila
+Nombre del cliente: Damaris Jimenez Castillo
+Placas del auto: AWE7894
+Número del cliente: 7845122025
+Fecha de la cita: 25/05/2021
+Hora: 12PM-4PM
+Cancelado: No
+Atendido: No
+--------------------------------
+Folio: 800003
+Servicio: Aceitado
+Mecánico: Roberto
+Nombre del cliente: Damaris Jimenez Castillo
+Placas del auto: AWE7894
+Número del cliente: 7845122025
+Fecha de la cita: 26/05/2021
+Hora: 4PM-8PM
+Cancelado: No
+Atendido: No
+--------------------------------

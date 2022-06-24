@@ -1,0 +1,36 @@
+Nombre: Martin Lopez Rodriguez
+Nomina: 700000
+Servicio: Aceitado
+Telefono: 7451202365
+Horario : LUNES A VIERNES  de 8AM-12PM
+--------------------------------
+Nombre: Eduardo Ramirez Davila
+Nomina: 700001
+Servicio: Aceitado
+Telefono: 7894651023
+Horario : LUNES A VIERNES  de 12PM-4PM
+--------------------------------
+Nombre: Roberto
+Nomina: 700002
+Servicio: Aceitado
+Telefono: 8115423698
+Horario : LUNES A VIERNES  de 4PM-8PM
+--------------------------------
+Nombre: Ismael Martinez Dominguez
+Nomina: 700003
+Servicio: Afinacion
+Telefono: 1203465897
+Horario : LUNES A VIERNES  de 8AM-12PM
+--------------------------------
+Nombre: Lauro Perez Ryott
+Nomina: 700004
+Servicio: Afinacion
+Telefono: 0123658984
+Horario : LUNES A VIERNES  de 12PM-4PM
+--------------------------------
+Nombre: Angel Montes Boca
+Nomina: 700005
+Servicio: Afinacion
+Telefono: 7432015268
+Horario : LUNES A VIERNES  de 4PM-8PM
+--------------------------------

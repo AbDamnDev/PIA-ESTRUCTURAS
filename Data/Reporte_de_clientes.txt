@@ -1,0 +1,27 @@
+Nombre: Valeria Abigail Carrillo Saldana
+Telefono: 8116097486
+Placas del auto: ASD1237
+Modelo: Sentra
+Marca: Nissan
+Año: 2006
+Kilometraje: Mas de 300,000 km
+Dirección completa: Garzas_146_Cortijo Los Ayala_Escobedo_Nuevo Leon
+--------------------------------
+Nombre: Damaris Jimenez Castillo
+Telefono: 7845122025
+Placas del auto: AWE7894
+Modelo: Dodge
+Marca: Nissan
+Año: 2015
+Kilometraje: De 200,000 -300,000 km
+Dirección completa: Islas_456_Bosques_Escobedo_Nuevo Leon
+--------------------------------
+Nombre: Adrian Lopez Garza
+Telefono: 7845659663
+Placas del auto: ASD1452
+Modelo: Explorer
+Marca: Nissan
+Año: 2003
+Kilometraje: De 30,000 -100,000 km
+Dirección completa: Garzas_308_Cenzontles_Guadalupe_Nuevo Leon
+--------------------------------
